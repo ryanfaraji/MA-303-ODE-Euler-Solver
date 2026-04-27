@@ -58,14 +58,13 @@ To run this example in the program, choose option 2 and enter:
 
 ### Demo Console Output
 
-<img width="789" height="565" alt="Screenshot 2026-04-26 213008" src="https://github.com/user-attachments/assets/a83c7540-c3fe-43bb-96ed-16ac18316001" />
-
+<img width="576" height="680" alt="Screenshot 2026-04-26 212948" src="https://github.com/user-attachments/assets/f243a590-29f9-428f-bacb-1c16ecb3fef2" />
 
 This output shows the values calculated by Euler's method, the exact solution values, the absolute error at each point, and the cumulative error. The table shows that the approximation starts at the correct initial value and then gradually moves away from the exact solution as x increases.
 
 ### Demo Graph
 
-![Demo Graph](demo_graph.png)
+<img width="789" height="565" alt="Screenshot 2026-04-26 213008" src="https://github.com/user-attachments/assets/a83c7540-c3fe-43bb-96ed-16ac18316001" />
 
 The graph shows the Euler approximation and the exact solution on the same plot. The Euler approximation follows the same increasing trend as the exact solution, but it stays slightly below it. This happens because Euler's method is only an approximation and uses the slope at the beginning of each step. As x increases, the approximation error becomes larger.
 
