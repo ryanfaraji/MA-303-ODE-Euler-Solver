@@ -7,7 +7,6 @@ Python program for approximating first-order differential equations using Euler'
 The purpose of this project is to create a Python program that approximates the solution of a first-order differential equation with an initial condition using Euler's method. When an exact solution is known, the program also compares the numerical approximation to the exact solution and shows the error and cumulative error.
 
 ## Mathematics Behind the Project
-<img width="239" height="192" alt="image" src="https://github.com/user-attachments/assets/3aa1c03f-d176-419d-a492-021611e19db6" />
 
 This project is based on an initial value problem:
 
