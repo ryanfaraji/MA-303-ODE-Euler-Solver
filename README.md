@@ -58,8 +58,8 @@ To run this example in the program, choose option 2 and enter:
 
 ### Demo Console Output
 
-![Demo Console Output](<img width="789" height="565" alt="Screenshot 2026-04-26 213008" src="https://github.com/user-attachments/assets/b5016f52-32a8-4e89-bf4f-efa589574f2e" />
-)
+<img width="789" height="565" alt="Screenshot 2026-04-26 213008" src="https://github.com/user-attachments/assets/a83c7540-c3fe-43bb-96ed-16ac18316001" />
+
 
 This output shows the values calculated by Euler's method, the exact solution values, the absolute error at each point, and the cumulative error. The table shows that the approximation starts at the correct initial value and then gradually moves away from the exact solution as x increases.
 
