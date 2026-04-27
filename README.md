@@ -31,11 +31,11 @@ The program allows the user to:
 - compute absolute error and cumulative error
 - display a graph of the approximation and exact solution
 
-## Example Used in the Project
+## Demo Example
 
 One example used in the project is:
 
-dy/dx = y
+dy/dx = y  
 y(0) = 1
 
 The exact solution is:
@@ -43,6 +43,30 @@ The exact solution is:
 y = e^x
 
 This example is useful because the exact solution is known, so the approximation can be compared directly to the true solution.
+
+### Demo Inputs
+
+To run this example in the program, choose option 2 and enter:
+
+- f(x, y) = y
+- x0 = 0
+- y0 = 1
+- h = 0.2
+- final x = 1
+- exact solution known = y
+- exact solution = exp(x)
+
+### Demo Console Output
+
+![Demo Console Output](demo_console_output.png)
+
+This output shows the values calculated by Euler's method, the exact solution values, the absolute error at each point, and the cumulative error. The table shows that the approximation starts at the correct initial value and then gradually moves away from the exact solution as x increases.
+
+### Demo Graph
+
+![Demo Graph](demo_graph.png)
+
+The graph shows the Euler approximation and the exact solution on the same plot. The Euler approximation follows the same increasing trend as the exact solution, but it stays slightly below it. This happens because Euler's method is only an approximation and uses the slope at the beginning of each step. As x increases, the approximation error becomes larger.
 
 ## Results
 
@@ -53,6 +77,8 @@ The results show that Euler's method follows the general shape of the exact solu
 - main.py — the Python program
 - README.md — the project report and overview
 - requirements.txt — required Python packages
+- demo_console_output.png — screenshot of the console output
+- demo_graph.png — screenshot of the graph output
 
 ## How to Run the Program
 
